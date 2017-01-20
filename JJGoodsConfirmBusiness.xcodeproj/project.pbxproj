@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EE3F09D1E31E258000429E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3F09C1E31E258000429E3 /* main.m */; };
+		9EE3F0A01E31E258000429E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3F09F1E31E258000429E3 /* AppDelegate.m */; };
+		9EE3F0A31E31E258000429E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3F0A21E31E258000429E3 /* ViewController.m */; };
+		9EE3F0A61E31E258000429E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE3F0A41E31E258000429E3 /* Main.storyboard */; };
+		9EE3F0A81E31E258000429E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE3F0A71E31E258000429E3 /* Assets.xcassets */; };
+		9EE3F0AB1E31E258000429E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE3F0A91E31E258000429E3 /* LaunchScreen.storyboard */; };
+		9EE3F0B61E31E258000429E3 /* JJGoodsConfirmBusinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3F0B51E31E258000429E3 /* JJGoodsConfirmBusinessTests.m */; };
+		9EE3F0C11E31E258000429E3 /* JJGoodsConfirmBusinessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3F0C01E31E258000429E3 /* JJGoodsConfirmBusinessUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EE3F0B21E31E258000429E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EE3F0901E31E258000429E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE3F0971E31E258000429E3;
+			remoteInfo = JJGoodsConfirmBusiness;
+		};
+		9EE3F0BD1E31E258000429E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EE3F0901E31E258000429E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE3F0971E31E258000429E3;
+			remoteInfo = JJGoodsConfirmBusiness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EE3F0981E31E258000429E3 /* JJGoodsConfirmBusiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJGoodsConfirmBusiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE3F09C1E31E258000429E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EE3F09E1E31E258000429E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EE3F09F1E31E258000429E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EE3F0A11E31E258000429E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9EE3F0A21E31E258000429E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EE3F0A51E31E258000429E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EE3F0A71E31E258000429E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EE3F0AA1E31E258000429E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EE3F0AC1E31E258000429E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE3F0B11E31E258000429E3 /* JJGoodsConfirmBusinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJGoodsConfirmBusinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE3F0B51E31E258000429E3 /* JJGoodsConfirmBusinessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJGoodsConfirmBusinessTests.m; sourceTree = "<group>"; };
+		9EE3F0B71E31E258000429E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE3F0BC1E31E258000429E3 /* JJGoodsConfirmBusinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJGoodsConfirmBusinessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE3F0C01E31E258000429E3 /* JJGoodsConfirmBusinessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJGoodsConfirmBusinessUITests.m; sourceTree = "<group>"; };
+		9EE3F0C21E31E258000429E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EE3F0951E31E258000429E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE3F0AE1E31E258000429E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE3F0B91E31E258000429E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EE3F08F1E31E258000429E3 = {
+			isa = PBXGroup;
+			children = (
+				9EE3F09A1E31E258000429E3 /* JJGoodsConfirmBusiness */,
+				9EE3F0B41E31E258000429E3 /* JJGoodsConfirmBusinessTests */,
+				9EE3F0BF1E31E258000429E3 /* JJGoodsConfirmBusinessUITests */,
+				9EE3F0991E31E258000429E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EE3F0991E31E258000429E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EE3F0981E31E258000429E3 /* JJGoodsConfirmBusiness.app */,
+				9EE3F0B11E31E258000429E3 /* JJGoodsConfirmBusinessTests.xctest */,
+				9EE3F0BC1E31E258000429E3 /* JJGoodsConfirmBusinessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EE3F09A1E31E258000429E3 /* JJGoodsConfirmBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				9EE3F09E1E31E258000429E3 /* AppDelegate.h */,
+				9EE3F09F1E31E258000429E3 /* AppDelegate.m */,
+				9EE3F0A11E31E258000429E3 /* ViewController.h */,
+				9EE3F0A21E31E258000429E3 /* ViewController.m */,
+				9EE3F0A41E31E258000429E3 /* Main.storyboard */,
+				9EE3F0A71E31E258000429E3 /* Assets.xcassets */,
+				9EE3F0A91E31E258000429E3 /* LaunchScreen.storyboard */,
+				9EE3F0AC1E31E258000429E3 /* Info.plist */,
+				9EE3F09B1E31E258000429E3 /* Supporting Files */,
+			);
+			path = JJGoodsConfirmBusiness;
+			sourceTree = "<group>";
+		};
+		9EE3F09B1E31E258000429E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EE3F09C1E31E258000429E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EE3F0B41E31E258000429E3 /* JJGoodsConfirmBusinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EE3F0B51E31E258000429E3 /* JJGoodsConfirmBusinessTests.m */,
+				9EE3F0B71E31E258000429E3 /* Info.plist */,
+			);
+			path = JJGoodsConfirmBusinessTests;
+			sourceTree = "<group>";
+		};
+		9EE3F0BF1E31E258000429E3 /* JJGoodsConfirmBusinessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EE3F0C01E31E258000429E3 /* JJGoodsConfirmBusinessUITests.m */,
+				9EE3F0C21E31E258000429E3 /* Info.plist */,
+			);
+			path = JJGoodsConfirmBusinessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EE3F0971E31E258000429E3 /* JJGoodsConfirmBusiness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE3F0C51E31E258000429E3 /* Build configuration list for PBXNativeTarget "JJGoodsConfirmBusiness" */;
+			buildPhases = (
+				9EE3F0941E31E258000429E3 /* Sources */,
+				9EE3F0951E31E258000429E3 /* Frameworks */,
+				9EE3F0961E31E258000429E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJGoodsConfirmBusiness;
+			productName = JJGoodsConfirmBusiness;
+			productReference = 9EE3F0981E31E258000429E3 /* JJGoodsConfirmBusiness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EE3F0B01E31E258000429E3 /* JJGoodsConfirmBusinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE3F0C81E31E258000429E3 /* Build configuration list for PBXNativeTarget "JJGoodsConfirmBusinessTests" */;
+			buildPhases = (
+				9EE3F0AD1E31E258000429E3 /* Sources */,
+				9EE3F0AE1E31E258000429E3 /* Frameworks */,
+				9EE3F0AF1E31E258000429E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EE3F0B31E31E258000429E3 /* PBXTargetDependency */,
+			);
+			name = JJGoodsConfirmBusinessTests;
+			productName = JJGoodsConfirmBusinessTests;
+			productReference = 9EE3F0B11E31E258000429E3 /* JJGoodsConfirmBusinessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EE3F0BB1E31E258000429E3 /* JJGoodsConfirmBusinessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE3F0CB1E31E258000429E3 /* Build configuration list for PBXNativeTarget "JJGoodsConfirmBusinessUITests" */;
+			buildPhases = (
+				9EE3F0B81E31E258000429E3 /* Sources */,
+				9EE3F0B91E31E258000429E3 /* Frameworks */,
+				9EE3F0BA1E31E258000429E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EE3F0BE1E31E258000429E3 /* PBXTargetDependency */,
+			);
+			name = JJGoodsConfirmBusinessUITests;
+			productName = JJGoodsConfirmBusinessUITests;
+			productReference = 9EE3F0BC1E31E258000429E3 /* JJGoodsConfirmBusinessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EE3F0901E31E258000429E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王家俊";
+				TargetAttributes = {
+					9EE3F0971E31E258000429E3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4WN6MH495Z;
+						ProvisioningStyle = Automatic;
+					};
+					9EE3F0B01E31E258000429E3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4WN6MH495Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EE3F0971E31E258000429E3;
+					};
+					9EE3F0BB1E31E258000429E3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4WN6MH495Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EE3F0971E31E258000429E3;
+					};
+				};
+			};
+			buildConfigurationList = 9EE3F0931E31E258000429E3 /* Build configuration list for PBXProject "JJGoodsConfirmBusiness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EE3F08F1E31E258000429E3;
+			productRefGroup = 9EE3F0991E31E258000429E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EE3F0971E31E258000429E3 /* JJGoodsConfirmBusiness */,
+				9EE3F0B01E31E258000429E3 /* JJGoodsConfirmBusinessTests */,
+				9EE3F0BB1E31E258000429E3 /* JJGoodsConfirmBusinessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EE3F0961E31E258000429E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE3F0AB1E31E258000429E3 /* LaunchScreen.storyboard in Resources */,
+				9EE3F0A81E31E258000429E3 /* Assets.xcassets in Resources */,
+				9EE3F0A61E31E258000429E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE3F0AF1E31E258000429E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE3F0BA1E31E258000429E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EE3F0941E31E258000429E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE3F0A31E31E258000429E3 /* ViewController.m in Sources */,
+				9EE3F0A01E31E258000429E3 /* AppDelegate.m in Sources */,
+				9EE3F09D1E31E258000429E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE3F0AD1E31E258000429E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE3F0B61E31E258000429E3 /* JJGoodsConfirmBusinessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE3F0B81E31E258000429E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE3F0C11E31E258000429E3 /* JJGoodsConfirmBusinessUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EE3F0B31E31E258000429E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EE3F0971E31E258000429E3 /* JJGoodsConfirmBusiness */;
+			targetProxy = 9EE3F0B21E31E258000429E3 /* PBXContainerItemProxy */;
+		};
+		9EE3F0BE1E31E258000429E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EE3F0971E31E258000429E3 /* JJGoodsConfirmBusiness */;
+			targetProxy = 9EE3F0BD1E31E258000429E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EE3F0A41E31E258000429E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EE3F0A51E31E258000429E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EE3F0A91E31E258000429E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EE3F0AA1E31E258000429E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EE3F0C31E31E258000429E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EE3F0C41E31E258000429E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EE3F0C61E31E258000429E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WN6MH495Z;
+				INFOPLIST_FILE = JJGoodsConfirmBusiness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenwang.JJGoodsConfirmBusiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EE3F0C71E31E258000429E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WN6MH495Z;
+				INFOPLIST_FILE = JJGoodsConfirmBusiness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenwang.JJGoodsConfirmBusiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9EE3F0C91E31E258000429E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4WN6MH495Z;
+				INFOPLIST_FILE = JJGoodsConfirmBusinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenwang.JJGoodsConfirmBusinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJGoodsConfirmBusiness.app/JJGoodsConfirmBusiness";
+			};
+			name = Debug;
+		};
+		9EE3F0CA1E31E258000429E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4WN6MH495Z;
+				INFOPLIST_FILE = JJGoodsConfirmBusinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenwang.JJGoodsConfirmBusinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJGoodsConfirmBusiness.app/JJGoodsConfirmBusiness";
+			};
+			name = Release;
+		};
+		9EE3F0CC1E31E258000429E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4WN6MH495Z;
+				INFOPLIST_FILE = JJGoodsConfirmBusinessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenwang.JJGoodsConfirmBusinessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJGoodsConfirmBusiness;
+			};
+			name = Debug;
+		};
+		9EE3F0CD1E31E258000429E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4WN6MH495Z;
+				INFOPLIST_FILE = JJGoodsConfirmBusinessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenwang.JJGoodsConfirmBusinessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJGoodsConfirmBusiness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EE3F0931E31E258000429E3 /* Build configuration list for PBXProject "JJGoodsConfirmBusiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE3F0C31E31E258000429E3 /* Debug */,
+				9EE3F0C41E31E258000429E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE3F0C51E31E258000429E3 /* Build configuration list for PBXNativeTarget "JJGoodsConfirmBusiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE3F0C61E31E258000429E3 /* Debug */,
+				9EE3F0C71E31E258000429E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EE3F0C81E31E258000429E3 /* Build configuration list for PBXNativeTarget "JJGoodsConfirmBusinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE3F0C91E31E258000429E3 /* Debug */,
+				9EE3F0CA1E31E258000429E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EE3F0CB1E31E258000429E3 /* Build configuration list for PBXNativeTarget "JJGoodsConfirmBusinessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE3F0CC1E31E258000429E3 /* Debug */,
+				9EE3F0CD1E31E258000429E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EE3F0901E31E258000429E3 /* Project object */;
+}
