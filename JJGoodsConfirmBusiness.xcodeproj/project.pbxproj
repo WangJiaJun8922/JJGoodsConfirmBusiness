@@ -15,6 +15,8 @@
 		9EE3F0AB1E31E258000429E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE3F0A91E31E258000429E3 /* LaunchScreen.storyboard */; };
 		9EE3F0B61E31E258000429E3 /* JJGoodsConfirmBusinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3F0B51E31E258000429E3 /* JJGoodsConfirmBusinessTests.m */; };
 		9EE3F0C11E31E258000429E3 /* JJGoodsConfirmBusinessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3F0C01E31E258000429E3 /* JJGoodsConfirmBusinessUITests.m */; };
+		9EE3F0D11E31E283000429E3 /* JJGoodsConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3F0D01E31E283000429E3 /* JJGoodsConfirmViewController.m */; };
+		9EE3F0D41E31E5BB000429E3 /* Target_JJGoodsConfirm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3F0D31E31E5BB000429E3 /* Target_JJGoodsConfirm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9EE3F0BC1E31E258000429E3 /* JJGoodsConfirmBusinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJGoodsConfirmBusinessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE3F0C01E31E258000429E3 /* JJGoodsConfirmBusinessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJGoodsConfirmBusinessUITests.m; sourceTree = "<group>"; };
 		9EE3F0C21E31E258000429E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE3F0CF1E31E283000429E3 /* JJGoodsConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGoodsConfirmViewController.h; sourceTree = "<group>"; };
+		9EE3F0D01E31E283000429E3 /* JJGoodsConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGoodsConfirmViewController.m; sourceTree = "<group>"; };
+		9EE3F0D21E31E5BB000429E3 /* Target_JJGoodsConfirm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_JJGoodsConfirm.h; sourceTree = "<group>"; };
+		9EE3F0D31E31E5BB000429E3 /* Target_JJGoodsConfirm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_JJGoodsConfirm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		9EE3F09A1E31E258000429E3 /* JJGoodsConfirmBusiness */ = {
 			isa = PBXGroup;
 			children = (
+				9EE3F0CE1E31E26B000429E3 /* JJGoodsConfirmBusiness */,
 				9EE3F09E1E31E258000429E3 /* AppDelegate.h */,
 				9EE3F09F1E31E258000429E3 /* AppDelegate.m */,
 				9EE3F0A11E31E258000429E3 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				9EE3F0C21E31E258000429E3 /* Info.plist */,
 			);
 			path = JJGoodsConfirmBusinessUITests;
+			sourceTree = "<group>";
+		};
+		9EE3F0CE1E31E26B000429E3 /* JJGoodsConfirmBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				9EE3F0CF1E31E283000429E3 /* JJGoodsConfirmViewController.h */,
+				9EE3F0D01E31E283000429E3 /* JJGoodsConfirmViewController.m */,
+				9EE3F0D21E31E5BB000429E3 /* Target_JJGoodsConfirm.h */,
+				9EE3F0D31E31E5BB000429E3 /* Target_JJGoodsConfirm.m */,
+			);
+			path = JJGoodsConfirmBusiness;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE3F0D41E31E5BB000429E3 /* Target_JJGoodsConfirm.m in Sources */,
 				9EE3F0A31E31E258000429E3 /* ViewController.m in Sources */,
 				9EE3F0A01E31E258000429E3 /* AppDelegate.m in Sources */,
+				9EE3F0D11E31E283000429E3 /* JJGoodsConfirmViewController.m in Sources */,
 				9EE3F09D1E31E258000429E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
